@@ -1,7 +1,5 @@
-var arr = [1, 2, 3, 4, 5];
+let atividade = "Olá, testando uma string";
+let invertida = atividade.split("").reverse().join("");
 
-console.log(arr);
-
-arr.reverse();
-
-console.log(arr);
+console.log(atividade);
+console.log(invertida);
